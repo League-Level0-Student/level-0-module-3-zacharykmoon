@@ -17,7 +17,13 @@ public class HighLowGame {
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
 String input = JOptionPane.showInputDialog("guess a number between one through ten");
-int num = Integer.parseInt("num");
+int num = (Integer.parseInt(input));
+if(num == 4) {
+JOptionPane.showMessageDialog(null, "That is correct");	
+else
+	JOptionPane.showMessageDialog(null, "Incorrect u  lose");
+}
+}
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 			
 			// 5. if the guess is correct
@@ -30,7 +36,7 @@ int num = Integer.parseInt("num");
 
 		// 13. Tell them they lose
 		}
-	}
+	
 
 }
 

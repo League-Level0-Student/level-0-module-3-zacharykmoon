@@ -14,9 +14,16 @@ public class ShinyObjects {
 		// 1. Call the method below to play the sound
 		// 2. Ask the user how many shiny objects they want
 		// 3. Play the sound that many times
+System.out.println();
+String input = JOptionPane.showInputDialog("how many shinyobject do you want");
 
+ 
 
+	}
 
+	private static String JOptionPane.Object showInputDialog(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	/********************   Use this method. DON'T CHANGE THE CODE BELOW  ***********************/
