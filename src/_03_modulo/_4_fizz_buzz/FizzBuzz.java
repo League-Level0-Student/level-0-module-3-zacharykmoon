@@ -1,8 +1,11 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import javax.swing.JOptionPane;
 
-/**
+
+	/**
+ * 
 * Fizz Buzz
 * 
 * In this project, we're going to build FizzBuzz. It's a children's game where
@@ -22,5 +25,22 @@ package _03_modulo._4_fizz_buzz;
 
 public class FizzBuzz {
 
-}
+	public static void main(String[] args) {
+		
+		
+		for(int i = 1; i< 21; i++) {
+			if (i%3==0 &&i%5==0)
+				JOptionPane.showMessageDialog(null,"fizzbuzz");
+			else if (i%3 == 0)	
+				JOptionPane.showMessageDialog(null,"fizz");
+			else if(i%5 == 0)
+				JOptionPane.showMessageDialog(null,"buzz");
+			else
+				JOptionPane.showMessageDialog(null, i);
+			
+		}	/* for loop */
 
+
+	} /* main */
+
+}	/* FizzBuzz */
